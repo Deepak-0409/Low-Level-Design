@@ -17,4 +17,8 @@ public class Reservation {
     Time bookedFromTime;
     Time bookedToTime;
     int id;
+
+    public Reservation(Vehicle vehicle, User user) {
+        // add logic
+    }
 }
