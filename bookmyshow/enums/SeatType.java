@@ -1,4 +1,4 @@
-package com.practice.java.lld.bookmyshow;
+package com.practice.java.lld.bookmyshow.enums;
 
 public enum SeatType {
     SILVER("silver", 250),

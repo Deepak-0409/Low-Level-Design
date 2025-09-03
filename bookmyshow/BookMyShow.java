@@ -1,5 +1,10 @@
 package com.practice.java.lld.bookmyshow;
 
+import com.practice.java.lld.bookmyshow.controllers.MovieController;
+import com.practice.java.lld.bookmyshow.controllers.TheatreController;
+import com.practice.java.lld.bookmyshow.model.Location;
+import com.practice.java.lld.bookmyshow.model.Movie;
+
 import java.util.List;
 
 public class BookMyShow {

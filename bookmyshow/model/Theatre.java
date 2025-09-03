@@ -1,4 +1,4 @@
-package com.practice.java.lld.bookmyshow;
+package com.practice.java.lld.bookmyshow.model;
 
 import java.util.List;
 

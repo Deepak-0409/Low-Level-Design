@@ -1,4 +1,6 @@
-package com.practice.java.lld.bookmyshow;
+package com.practice.java.lld.bookmyshow.controllers;
+
+import com.practice.java.lld.bookmyshow.model.Movie;
 
 import java.util.ArrayList;
 import java.util.HashMap;

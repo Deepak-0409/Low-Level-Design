@@ -1,10 +1,13 @@
-package com.practice.java.lld.bookmyshow;
+package com.practice.java.lld.bookmyshow.controllers;
+
+import com.practice.java.lld.bookmyshow.model.Movie;
+import com.practice.java.lld.bookmyshow.model.Show;
+import com.practice.java.lld.bookmyshow.model.Theatre;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class TheatreController {
     //Store all the theatres in a city
@@ -27,7 +30,7 @@ public class TheatreController {
         List<Show> shows = new ArrayList<>();
 
         for(Theatre theatre: theatreAvailable) {
-            shows.addAll(theatre.getShowList().stream().filter(show -> movie.getId()==show.movie.getId()).toList());
+            shows.addAll(theatre.getShowList().stream().filter(show -> movie.getId()==show.getMovie().getId()).toList());
         }
 
         return shows;

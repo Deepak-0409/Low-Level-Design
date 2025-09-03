@@ -1,4 +1,6 @@
-package com.practice.java.lld.bookmyshow;
+package com.practice.java.lld.bookmyshow.model;
+
+import com.practice.java.lld.bookmyshow.enums.SeatType;
 
 public class Seat {
     int id;
